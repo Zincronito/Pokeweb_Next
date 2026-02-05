@@ -10,7 +10,7 @@ export default function PokemonesLayout({
 }) {
   return (
     <div className="flex flex-col lg:flex-row min-h-screen"> 
-      {/* MENU LATERAL / SUPERIOR */}
+   
       <div className="bg-slate-100 p-4 w-full lg:w-64 flex flex-row lg:flex-col gap-4 overflow-x-auto lg:h-screen border-r border-gray-300">
         <h2 className="text-xl font-bold mb-4 hidden lg:block">Pokédex</h2>
         {ids.map((id) => (
@@ -29,7 +29,7 @@ export default function PokemonesLayout({
         ))}
       </div>
 
-      {/* ÁREA DE CONTENIDO (Aquí se renderiza el page.tsx) */}
+    
       <div className="flex-1 p-8 bg-white">
         {children}
       </div>
