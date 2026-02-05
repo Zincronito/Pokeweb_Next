@@ -1,5 +1,5 @@
 import React from 'react';
-import PokeCardModern from '@/src/components/PokeCardModernProps'; 
+import PokeCardModern from '@/components/PokeCardModernProps'; 
 
 interface PokeDetalleProps {
   params: Promise<{ id: string }>;
